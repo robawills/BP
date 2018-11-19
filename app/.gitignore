@@ -1,0 +1,23 @@
+# Craft runtime and backups folders
+# ----------------------------------------------------------------------
+craft/storage/runtime/*
+craft/storage/backups/*
+
+# Uploaded files
+# ----------------------------------------------------------------------
+public/assets/uploads/*
+
+# Node Modules
+# ----------------------------------------------------------------------
+/node_modules/*
+
+# CRAFT ENVIRONMENT
+.env.php
+.env.sh
+.env
+
+/.env
+
+/.idea
+/vendor
+.DS_Store
